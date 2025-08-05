@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <!-- ЛОГОТИП -->
       <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
-        <img src="/images/Logo.jpg" alt="ACSEL ART" height="60" />
+        <img src="/images/CutLogo.png" alt="ACSEL ART" height="60" />
       </a>
 
       <!-- БУРГЕР -->

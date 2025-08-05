@@ -1,8 +1,12 @@
 <script setup>
 import Header from './components/Header.vue'
-import Hero from './views/Hero.vue'
-import About from './views/About.vue'
+import Hero from './components/Hero.vue'
+import About from './components/About.vue'
 import Portfolio from './components/Portfolio.vue'
+import Services from './components/Services.vue'
+import Materials from './components/Materials.vue'
+import ApplicationForm from './components/ApplicationForm.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -10,6 +14,10 @@ import Portfolio from './components/Portfolio.vue'
   <Hero />
   <About />
   <Portfolio />
+  <Services />
+  <Materials />
+  <ApplicationForm />
+  <Footer />
 </template>
 
 <style scoped>
