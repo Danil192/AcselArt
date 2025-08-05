@@ -2,7 +2,7 @@
   <section id="about" class="py-5 text-white bg-dark">
     <div class="container">
       <!-- Заголовок -->
-      <h2 class="text-center mb-4 fw-bold">О студии</h2>
+      <h1 class="text-center mb-4 fw-bold">О студии</h1>
 
       <!-- Описание -->
       <div class="row mb-5">
