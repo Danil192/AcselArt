@@ -176,7 +176,6 @@ function isImage(file) {
 function onFilesSelected(e) {
   const incoming = Array.from(e.target.files || [])
   addFiles(incoming)
-  // очищаем input, чтобы повторный выбор того же файла срабатывал
   e.target.value = ''
 }
 
@@ -294,10 +293,9 @@ const progressWidth = computed(() => {
   color: #000;
   font-weight: 700;
   box-shadow: inset 0 0 0 2px rgba(0,0,0,.15);
-  flex-basis: 120px; /* увеличиваем длину */
+  flex-basis: 120px; 
 }
 
-/* Обычные шаги — чуть меньше */
 .step-btn:not(.active) {
   flex-basis: 90px;
 }
