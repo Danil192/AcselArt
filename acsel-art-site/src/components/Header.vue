@@ -76,4 +76,7 @@ body {
 html {
   scrollbar-gutter: stable;
 }
+.d-flex.align-items-center.gap-3 {
+  transform: translateX(-20px);
+}
 </style>
