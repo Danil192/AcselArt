@@ -12,8 +12,8 @@ import Footer from './components/Footer.vue'
 <template>
   <Header />
   <Hero />
-  <About />
   <Portfolio />
+  <About />
   <Services />
   <Materials />
   <ApplicationForm />

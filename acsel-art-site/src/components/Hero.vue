@@ -56,8 +56,7 @@ onMounted(() => {
       <h1 class="display-5 fw-bold">ACSEL ART — граффити-студия в Чите</h1>
       <p class="lead mb-4">Вдохнём жизнь в ваши стены</p>
       <div>
-        <a href="#works" class="btn btn-outline-light me-3">Посмотреть работы</a>
-        <a href="#calculator" class="btn btn-primary">Рассчитать стоимость</a>
+        <a href="#calculator" class="btn btn-primary">Оставить заявку</a>
       </div>
     </div>
   </section>
@@ -66,7 +65,7 @@ onMounted(() => {
 <style scoped>
 .hero-section {
   position: relative;
-  height: clamp(420px, 89vh, 800px); /* компактная адаптивная высота */
+  height: clamp(420px, 100vh, 800px); /* компактная адаптивная высота */
   width: 100%;
   overflow: hidden;
 }
