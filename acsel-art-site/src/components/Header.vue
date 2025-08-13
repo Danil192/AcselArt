@@ -33,12 +33,17 @@
 
         <!-- КНОПКА + СОЦСЕТИ -->
         <div class="d-flex align-items-center gap-3">
-        <a href="#calculator" class="btn btn-outline-light btn-sm">Заказать роспись</a>
-        <a href="https://vk.com/acselart_chita" target="_blank" class="text-white small text-uppercase fw-bold">ВК</a>
-        <a href="https://instagram.com/yourprofile" target="_blank" class="text-white small text-uppercase fw-bold">ИНСТ</a>
-        <a href="https://t.me/yourchannel" target="_blank" class="text-white small text-uppercase fw-bold">ТГ</a>
+          <a href="#calculator" class="btn btn-outline-light btn-sm">Заказать роспись</a>
+          <a href="https://vk.com/acselart_chita" target="_blank" class="text-white fs-5">
+            <i class="fab fa-vk"></i>
+          </a>
+          <a href="https://instagram.com/yourprofile" target="_blank" class="text-white fs-5">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://t.me/yourchannel" target="_blank" class="text-white fs-5">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
         </div>
-
       </div>
     </div>
   </nav>
@@ -48,11 +53,27 @@
 </script>
 
 <style scoped>
+body {
+  padding-top: 80px; 
+}
 .navbar-nav .nav-link {
   font-weight: 500;
 }
-
 .navbar-brand {
   letter-spacing: 1px;
+}
+.navbar {
+  position: relative;
+}
+.navbar.fixed-top {
+  left: 0;
+  right: 0;
+  width: calc(100% - 8px); /* убрали пару пикселей под скролл */
+  margin: 0 auto; /* выровнять по центру */
+  box-sizing: border-box;
+  z-index: 1030;
+}
+html {
+  scrollbar-gutter: stable;
 }
 </style>

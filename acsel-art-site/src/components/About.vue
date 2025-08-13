@@ -45,14 +45,14 @@
 
 <script setup>
 const team = [
-  { name: 'Алексей Литвинец', role: 'Основатель / Художник', photo: '/images/human.jpg' },
-  { name: 'Григорий Русанов', role: 'Основатель / Художник', photo: '/images/human.jpg' },
-  { name: 'Андрей', role: 'Менеджер', photo: '/images/human.jpg' },
-  { name: 'Аня', role: 'Художник', photo: '/images/human.jpg' },
-  { name: 'Катя', role: 'Художник', photo: '/images/human.jpg' },
-  { name: 'Вика', role: 'Художник', photo: '/images/human.jpg' },
-  { name: 'Алексей', role: 'Художник', photo: '/images/human.jpg' },
-  { name: 'Ира', role: 'Художник', photo: '/images/human.jpg' },
+  { name: 'Алексей Литвинец', role: 'Основатель / Художник', photo: '/images/team/human.jpg' },
+  { name: 'Григорий Русанов', role: 'Основатель / Художник', photo: '/images/team/human.jpg' },
+  { name: 'Андрей', role: 'Менеджер', photo: '/images/team/human.jpg' },
+  { name: 'Аня', role: 'Художник', photo: '/images/team/human.jpg' },
+  { name: 'Катя', role: 'Художник', photo: '/images/team/human.jpg' },
+  { name: 'Вика', role: 'Художник', photo: '/images/team/human.jpg' },
+  { name: 'Алексей', role: 'Художник', photo: '/images/team/human.jpg' },
+  { name: 'Ира', role: 'Художник', photo: '/images/team/human.jpg' },
 ]
 </script>
 
